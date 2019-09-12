@@ -1,3 +1,26 @@
-body {
+.contenitore {
+  position: relative;
+}
+
+.uno,
+.due {
+  position: relative;
+  margin-bottom: 20px;
+  display: inline;
+}
+
+
+.sconto {
+  position: absolute;
+  right: 4px;
+  z-index: 2;
+  display: inline;
+}
+
+.cinque {
   background: red;
+}
+
+.trenta {
+  background: green;
 }
