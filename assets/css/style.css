@@ -9,7 +9,17 @@
   margin-top: 30px;
 }
 
-/* elementi */
+.uno,
+.due {
+  z-index: 1;
+}
+
+.uno:hover,
+.due:hover {
+  cursor: pointer;
+}
+
+/* prodotti */
 .ipad {
   position:absolute;
 }
@@ -38,4 +48,20 @@
 
 .trenta {
   background: green;
+}
+
+/* cuoricini */
+
+.cuoricino {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 130px;
+  bottom: 10px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.box:hover .cuoricino {
+  opacity: 1;
 }
