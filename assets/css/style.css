@@ -1,18 +1,33 @@
+/* generale */
 .contenitore {
   position: relative;
 }
 
-.uno,
 .due {
-  position: relative;
-  margin-bottom: 20px;
-  display: inline;
+  position: absolute;
+  top: 372px;
+  margin-top: 30px;
 }
 
+/* elementi */
+.ipad {
+  position:absolute;
+}
 
+.iphone {
+  position: absolute;
+  left: 305px;
+}
+
+.bose {
+  position: absolute;
+  left: 610px;
+}
+
+/* sconti */
 .sconto {
   position: absolute;
-  right: 4px;
+  right: 0;
   z-index: 2;
   display: inline;
 }
